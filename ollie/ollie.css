@@ -1,6 +1,6 @@
 /* 
 	giacomo lawrance https://giacomolaw.me
-	https://cdn.jsdelivr.net/gh/giacomolaw/mal-themes/ollie/ollie.css
+	https://cdn.jsdelivr.net/gh/giacomolaw/mal-themes@latest/ollie/ollie.css
 */
 
 :root {
@@ -10,7 +10,7 @@
   background-image: var(--banner);
   height: 500px;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 body {
   background-size: cover;
@@ -21,8 +21,14 @@ body {
 .header .header-menu .btn-menu {
   margin-right: 20px;
 }
+body.ownlist {
+  background-image: unset;
+}
+body {
+	background-color: white !important;
+}
 #copyright:after {
-  maring-top: 10px;
+  margin-top: 10px;
   display: block;
 	content: "List design by Giacomo Lawrance.";
 }
