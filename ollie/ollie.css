@@ -13,20 +13,11 @@
   background-size: cover;
   background-position: center center;
 }
-body {
-  background-size: cover;
-}
 .header .header-title {
   margin-left: 20px;
 }
 .header .header-menu .btn-menu {
   margin-right: 20px;
-}
-body.ownlist {
-  background-image: unset;
-}
-body {
-	background-color: white !important;
 }
 #copyright:after {
   margin-top: 10px;
