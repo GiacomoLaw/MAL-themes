@@ -1,0 +1,23 @@
+:root {
+	--banner: url(https://thumbs.gfycat.com/RawGloriousCaiman-size_restricted.gif);
+}
+.header {
+  background-image: var(--banner);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+body {
+  background-size: cover;
+}
+.header .header-title {
+  margin-left: 20px;
+}
+.header .header-menu .btn-menu {
+  margin-right: 20px;
+}
+#copyright:after {
+  maring-top: 10px;
+  display: block;
+	content: "List design by Giacomo Lawrance.";
+}
